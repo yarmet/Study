@@ -27,7 +27,7 @@ public class CountDublicates {
         Map<Integer, Long> collect =  integers.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
         System.out.println(collect);
 
-        //    or  
+        //    or
 
         Map<Integer, Integer> counts = integers.stream().collect(Collectors.groupingBy(e -> e, Collectors.summingInt(x -> 1)));
         System.out.println(collect);
