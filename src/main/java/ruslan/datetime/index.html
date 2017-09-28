@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link href="jquery.datetimepicker.min.css" rel="stylesheet">
+    <link href="jquery.dataTables.min.css" rel="stylesheet">
+
+
+
+</head>
+<body>
+
+
+<input type="text" id="input" placeholder="выбрать дату"/>
+
+<hr>
+
+<table id="example" class="display" width="100%" cellspacing="0">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>text</th>
+        <th>data</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td><a href="javascript:void(0)">row 1</a></td>
+        <td>text 1</td>
+        <td>data 1</td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)">row 2</a></td>
+        <td>text 2</td>
+        <td>data 2</td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)">row 3</a></td>
+        <td>text 3</td>
+        <td>data 3</td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)">row 4</a></td>
+        <td>text 4</td>
+        <td>data 4</td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)">row 5</a></td>
+        <td>text 5</td>
+        <td>data 5</td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)">row 6</a></td>
+        <td>text 6</td>
+        <td>data 6</td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)">row 7</a></td>
+        <td>text 7</td>
+        <td>data 7</td>
+    </tr>
+    </tbody>
+</table>
+
+
+<script src="jquery-3.1.1.min.js"></script>
+<script src="jquery.dataTables.min.js"></script>
+<script src="jquery.datetimepicker.full.min.js"></script>
+
+
+<script>
+    $(document).ready(function () {
+        $('#example').DataTable();
+        $('#input').datetimepicker();
+    });
+</script>
+
+</body>
+</html>
