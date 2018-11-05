@@ -1,5 +1,7 @@
 package ruslan.hibernate.entityExtends.JpaTest;
 
+import ruslan.hibernate.entityExtends.JpaTest.model.Mersedes;
+
 import javax.persistence.EntityManager;
 
 public class Main {

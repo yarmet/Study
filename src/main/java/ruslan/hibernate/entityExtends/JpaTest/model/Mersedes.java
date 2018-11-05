@@ -1,10 +1,9 @@
-package ruslan.hibernate.entityExtends.JpaTest;
+package ruslan.hibernate.entityExtends.JpaTest.model;
 
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.Entity;
-import javax.persistence.Table;
 
 @Getter
 @Setter
