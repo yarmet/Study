@@ -1,4 +1,4 @@
-package ru;
+package ruslan.hibernate.entityExtends.JpaTest;
 
 import javax.persistence.EntityManager;
 
